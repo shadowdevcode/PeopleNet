@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".StatusActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/itemRefresh"
+        android:title="@string/titleRefresh" />
+
+    <item
+        android:id="@+id/itemStatus"
+        android:title="@string/titleStatus" />
+
+    <item
+        android:id="@+id/itemTimeline"
+        android:title="@string/titleTimeline" />
+
+    <!--
+
+    <item
+        android:id="@+id/itemToogle"
+        android:title="@string/titleStartService" />
+    <item
+        android:id="@+id/itemStartService"
+        android:title="@string/titleStartService" />
+
+    <item
+        android:id="@+id/itemStopService"
+        android:title="@string/titleStopService" />
+    -->
+</menu>
